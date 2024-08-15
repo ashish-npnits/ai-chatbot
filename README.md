@@ -38,16 +38,30 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Command
 ### install clark for authentication
+```bash
 npm install @clerk/nextjs@4.29.12
+```
 ### install prisma
+```bash
 npm install prisma typescript ts-node @types/node --save-dev
+```
 ### start prisma
+```bash
 npx prisma init
+```
 ### install prisma client
+```bash
 npm install @prisma/client
+```
 ### to crearte the DB
+```bash
 npx prisma generate 
+```
 ### to push DB to cloud DB
+```bash
 npx prisma db push
+```
 ### to open prisma sql editor local
+```bash
 npx prisma studio 
+```
